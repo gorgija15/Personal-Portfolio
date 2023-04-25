@@ -18,10 +18,10 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">
-            Hi, I&#39;m Gjorgjija!
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-5xl">
+            Hi, I&#39;m Gjorgija!
           </h1>
-          <p className="text-lg mt-4 mb-6 md:text-2xl">
+          <p className="text-lg mt-5 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">
              a proactive Front End Developer{" "}

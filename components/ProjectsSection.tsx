@@ -6,12 +6,12 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Brainster Labs",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "BrainsterLabs is a website that represents the main courses of the Brainster Academy.",
+    image: "/brainsterlabs.png",
+    github: "https://github.com/gorgija15/Brainster-Labs.git",
+    link: "https://brainsterlabs01.netlify.app/",
   },
   {
     name: "PlatoIO",
