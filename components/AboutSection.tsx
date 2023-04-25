@@ -30,21 +30,19 @@ const AboutSection = () => {
             </h1>
             <p>
               Hi, my name is Gjorgjija and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              <span className="font-bold text-teal-500">{"highly ambitious"}</span>,
+              <span className="font-bold text-teal-500">{" self-motivated"}</span>, and
+              <span className="font-bold text-teal-500">{" driven"}</span> Front End Developer
+              based in Sveti Nikole, Macedonia.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I graduated from Brainster Front End Web Development academy in Oct 2022. 
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
+              From watching football, reading car magazines to traveling. <br/>
               I am always seeking new experiences and love to keep myself
               engaged and learning new things.
             </p>
