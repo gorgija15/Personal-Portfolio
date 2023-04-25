@@ -7,16 +7,17 @@ const skills = [
   { skill: "JavaScript" },
   { skill: "TypeScript" },
   { skill: "React" },
+  { skill: "Git" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
   { skill: "Bootstrap" },
-  { skill: "Git" },
+  { skill: "WordPress" }
 ];
 
 const AboutSection = () => {
   return (
     <section id="about">
-      <div className="my-12 pb-12 md:pt-16 md:pb-48">
+      <div className="my-12 pb-12 md:pt-16 md:pb-30">
         <h1 className="text-center font-bold text-4xl">
           As For Me
           <hr className="w-10 h-1 mx-auto mt-3 mb-10 bg-teal-500 border-0 rounded"></hr>
@@ -73,7 +74,6 @@ const AboutSection = () => {
                 );
               })}
             </div>
-        
           </div>
         </div>
       </div>

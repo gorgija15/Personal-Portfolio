@@ -1,41 +1,45 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SlideUp from "./SlideUp";
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
     name: "Brainster Labs",
     description:
       "BrainsterLabs is a website that represents the main courses of the Brainster Academy.",
+    description2: "Main skill used: CSS + Bootstrap",
     image: "/brainsterlabs.png",
     github: "https://github.com/gorgija15/Brainster-Labs.git",
     link: "https://brainsterlabs01.netlify.app/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "StreetARTists",
+    description:
+      "StreetARTists is a web app that represents various artists and the arts created by them. Skills used: JavaScript, HTML, Css, Bootstrap",
+    description2: "Main skill used: JavaScript",
+    image: "/streetartists.png",
+    github: "https://github.com/gorgija15/StreetARTists.git",
+    link: "https://streetartists02.netlify.app/",
   },
   {
-    name: "Kator Family Photos",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    name: "SIA Boutique",
+    description: "SIA Boutique is an eccomerce website for female clothing.",
+    description2: "Main skill used: WordPress + Woocommerce",
+
+    image: "/siabutique.png",
+    github: "https://siabutique.com/",
+    link: "https://siabutique.com/",
   },
-]
+];
 
 const ProjectsSection = () => {
   return (
     <section id="projects">
-      <h1 className="my-10 text-center font-bold text-4xl">
+      <h1 className="mb-10 text-center font-bold text-4xl">
         Projects
-        <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+        <hr className="w-10 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>
 
       <div className="flex flex-col space-y-28">
@@ -60,6 +64,9 @@ const ProjectsSection = () => {
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {project.description}
                     </p>
+                    <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
+                      {project.description2}
+                    </p>
                     <div className="flex flex-row align-bottom space-x-4">
                       <Link href={project.github} target="_blank">
                         <BsGithub
@@ -78,12 +85,11 @@ const ProjectsSection = () => {
                 </div>
               </SlideUp>
             </div>
-          )
+          );
         })}
-        
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;
