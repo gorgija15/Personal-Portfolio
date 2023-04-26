@@ -3,7 +3,7 @@ export default function Head() {
     <>
       <title>Gjorgija Vladimirov</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="author" content="GjorgijaV" />
+      <meta name="author" content="Gjorgija" />
     </>
   );
 }

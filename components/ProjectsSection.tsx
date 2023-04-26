@@ -17,7 +17,7 @@ const projects = [
   {
     name: "StreetARTists",
     description:
-      "StreetARTists is a web app that represents various artists and the arts created by them. Skills used: JavaScript, HTML, Css, Bootstrap",
+      "StreetARTists is a web app that represents various artists and the arts created by them.",
     description2: "Main skill used: JavaScript",
     image: "/streetartists.png",
     github: "https://github.com/gorgija15/StreetARTists.git",

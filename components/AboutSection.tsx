@@ -11,7 +11,7 @@ const skills = [
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
   { skill: "Bootstrap" },
-  { skill: "WordPress" }
+  { skill: "WordPress" },
 ];
 
 const AboutSection = () => {
@@ -30,32 +30,37 @@ const AboutSection = () => {
             </h1>
             <p>
               Hi, my name is Gjorgjija and I am a{" "}
-              <span className="font-bold text-teal-500">{"highly ambitious"}</span>,
-              <span className="font-bold text-teal-500">{" self-motivated"}</span>, and
-              <span className="font-bold text-teal-500">{" driven"}</span> Front End Developer
-              based in Sveti Nikole, Macedonia.
+              <span className="font-bold text-teal-500">
+                {"highly ambitious"}
+              </span>
+              ,
+              <span className="font-bold text-teal-500">
+                {" self-motivated"}
+              </span>
+              , and
+              <span className="font-bold text-teal-500">{" driven"}</span> Front
+              End Developer based in Sveti Nikole, Macedonia.
             </p>
             <br />
             <p>
-              I graduated from Brainster Front End Web Development academy in Oct 2022. 
+              I graduated from Brainster Front End Web Development academy in
+              Oct 2022.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From watching football, reading car magazines to traveling. <br/>
+              From watching football, reading car magazines to traveling. <br />
               I am always seeking new experiences and love to keep myself
               engaged and learning new things.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              I believe in lifelong personal growth and have a passion for
+              innovation and creativity in my career. I'm always eager to learn
+              and open to new opportunities that allow me to expand my skills.
+              With a positive attitude and commitment to excellence, I look
+              forward to embracing the ever-changing challenges in the
+              technology industry and achieving great things in my career.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
