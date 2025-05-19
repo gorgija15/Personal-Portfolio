@@ -6,6 +6,15 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
+    name: "Purebet",
+    description: "Purebet is about revolutionizing sports betting through blockchain technology",
+    description2: "Main skill used: Next.js",
+
+    image: "/purebetio.png",
+    github: "#",
+    link: "https://www.purebet.io/",
+  },
+  {
     name: "StreetARTists",
     description:
       "StreetARTists is a web app that represents various artists and the arts created by them.",
@@ -31,15 +40,6 @@ const projects = [
     image: "/siabutique.png",
     github: "https://siabutique.com/",
     link: "https://siabutique.com/",
-  },
-    {
-    name: "Purebet.io",
-    description: "Purebet is about revolutionizing sports betting through blockchain technology",
-    description2: "Main skill used: Next.js",
-
-    image: "/purebetio.png",
-    github: "#",
-    link: "https://www.purebet.io/",
   }
 ];
 
