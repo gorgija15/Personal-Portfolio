@@ -6,15 +6,6 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
-    name: "Brainster Labs",
-    description:
-      "BrainsterLabs is a website that represents the main courses of the Brainster Academy.",
-    description2: "Main skill used: CSS + Bootstrap",
-    image: "/brainsterlabs.png",
-    github: "https://github.com/gorgija15/Brainster-Labs.git",
-    link: "https://brainsterlabs01.netlify.app/",
-  },
-  {
     name: "StreetARTists",
     description:
       "StreetARTists is a web app that represents various artists and the arts created by them.",
@@ -22,6 +13,15 @@ const projects = [
     image: "/streetartists.png",
     github: "https://github.com/gorgija15/StreetARTists.git",
     link: "https://streetartists02.netlify.app/",
+  },
+  {
+    name: "Brainster Labs",
+    description:
+      "BrainsterLabs is a website that represents the main courses of the Brainster Academy.",
+    description2: "Main skill used: CSS + Bootstrap",
+    image: "/brainsterlabs.png",
+    github: "https://github.com/gorgija15/Brainster-Labs.git",
+    link: "https://brainsterlabs01.netlify.app/",
   },
   {
     name: "SIA Boutique",
@@ -32,6 +32,15 @@ const projects = [
     github: "https://siabutique.com/",
     link: "https://siabutique.com/",
   },
+    {
+    name: "Purebet.io",
+    description: "Purebet is about revolutionizing sports betting through blockchain technology",
+    description2: "Main skill used: Next.js",
+
+    image: "/purebetio.png",
+    github: "#",
+    link: "https://www.purebet.io/",
+  }
 ];
 
 const ProjectsSection = () => {
